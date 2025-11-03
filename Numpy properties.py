@@ -5,3 +5,16 @@ import numpy as np
 y = np.array([1, "you", True])
 
 print(y)
+
+
+#Arthmatic operations in list vs numpy
+
+list1 = [1,3,4,6]
+list2 = [3,4,3]
+
+print (list1 + list2)
+
+np_list1 = np.array([1,3,4,6])
+np_list2 = np.array([3,4,3])
+
+print (np_list1 + np_list2)
