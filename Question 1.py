@@ -16,7 +16,7 @@ weight_kg = weight_lb * 0.453592
 
 BMI = weight_kg /  (height_m**2)
 
-print(BMI.dtype)
+print(type(height_m))
 
 print(BMI)
 
@@ -27,3 +27,4 @@ print(BMI[-2])
 print(BMI[:4])
 
 less_then_21 = BMI[BMI < 21]
+print(less_then_21)
