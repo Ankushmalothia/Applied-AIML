@@ -15,6 +15,6 @@ list2 = [3,4,3]
 print (list1 + list2)
 
 np_list1 = np.array([1,3,4,6])
-np_list2 = np.array([3,4,3])
+np_list2 = np.array([3,4,3,7]) # if the length of both the numpy arrays are not same it will give error
 
 print (np_list1 + np_list2)
