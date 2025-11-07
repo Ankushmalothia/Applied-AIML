@@ -6,6 +6,7 @@ sales = np.array([4110451.90, 4744557.50, 3787492.52])
 
 plt.bar(product_catagory, sales, color = "green", edgecolor = "red", width = 0.5)
 
+
 plt.title("Sales graph", fontdict={"fontsize" : 20, "fontweight" : 3, "color" : "Gray"})
 plt.xlabel("Product Catagory", fontdict={"fontsize" : 15, "fontweight" : 2, "color" : "Gray"})
 plt.ylabel("Sales", fontdict={"fontsize" : 15, "fontweight" : 2, "color" : "Gray"})
